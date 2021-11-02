@@ -1,0 +1,23 @@
+title OpenCL Interaction Diagram
+
+Host->OpenCL Device: Init_driver()
+
+OpenCL Device-->Host: *CLObject
+note over Host: The CLObject contains the **context**,\n**command queue** and **kernel**.
+
+Host->OpenCL Device: **clCreateBuffer**(buffer_size, signed ints)
+OpenCL Device-->Host: Buffer Object
+note over OpenCL Device: Buffer Object used to manage **data transfer**\nbetween the host and device
+
+Host->OpenCL Device: **clEnqueueWriteBuffer**(Command Queue, Buffer Object)\n\n**clSetKernelArg**(Kernel, 0...n, Buffer Object)\n\n**clEnqueueNDRangeKernel**(Command Queue, Kernel)
+note over Host: - Enqueues a command to **write to the buffer**\nfrom host memory.\n- Sets **specific kernel arguments** in order for \nthe program to be processed.\n- Enqueues the command to **execute the \nkernel**.
+
+Host->Host:**clFinish**(Command Queue)
+note over Host: **Blocks** adding to the command queue until all \n**previously queued commands** have been \nexecuted.
+
+OpenCL Device-->Host: **EnqueueReadBuffer**(Command Queue, Buffer Object)
+note over OpenCL Device: Enqueues a command to read **from the \nbuffer** to host memory
+
+OpenCL Device-->Host: **clReleaseMemObject**(Buffer Object)
+note over OpenCL Device: The Buffer object(s) is/are deleted.
+

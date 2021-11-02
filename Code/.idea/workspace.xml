@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6864736c-395c-4e79-b6dc-4ce58d4c34a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/opencl_driver_skeleton/Coursework-code-skeleton/driver.c" beforeDir="false" afterPath="$PROJECT_DIR$/opencl_driver_skeleton/Coursework-code-skeleton/driver.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/opencl_driver_skeleton" />
+  </component>
+  <component name="ProjectId" id="1YoeRk2ofGJa18enEFFezzm6yOd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sshfs_pi/home/pi/Documents/AE/Coursework-code-skeleton/driver.c" />
+  </component>
+  <component name="RunManager">
+    <configuration name="driver.o" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/opencl_driver_skeleton/Coursework-code-skeleton/Makefile" target="driver.o" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.driver.o" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6864736c-395c-4e79-b6dc-4ce58d4c34a8" name="Default Changelist" comment="" />
+      <created>1583613367573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583613367573</updated>
+      <workItem from="1583613369491" duration="862000" />
+      <workItem from="1583676263622" duration="656000" />
+      <workItem from="1584805295933" duration="2397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584808396304">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="263" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584808396304" />
+    <state width="904" height="275" key="GridCell.Tab.0.bottom" timestamp="1583677058542">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="904" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1583677058542" />
+    <state width="904" height="275" key="GridCell.Tab.0.center" timestamp="1583677058540">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="904" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1583677058540" />
+    <state width="904" height="275" key="GridCell.Tab.0.left" timestamp="1583677058539">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="904" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1583677058539" />
+    <state width="904" height="275" key="GridCell.Tab.0.right" timestamp="1583677058541">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="904" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1583677058541" />
+    <state x="135" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584805297962">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="135" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584805297962" />
+  </component>
+</project>

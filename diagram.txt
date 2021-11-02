@@ -1,0 +1,12 @@
+
+title OpenCL Interaction Diagram
+
+Host Device->OpenCL Device: Init_driver()
+OpenCL Device-->Host Device: *CLObject
+Host Device->OpenCL Device: clCreateBuffer
+OpenCL Device-->Host Device: Buffer Object
+Host Device->OpenCL Device: clEnqueueWriteBuffer\nclSetKernelArg\nclEnqueueNDRangeKernel
+Host Device->Host Device:clFinish
+OpenCL Device-->Host Device:EnqueueReadBuffer
+OpenCL Device-->Host Device:clReleaseMemObject
+
